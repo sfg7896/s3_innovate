@@ -2,7 +2,7 @@
 - ***npm start*** to run server
 - API Documentation at ***http://localhost:3000/api/***
 - Available end point ***http://localhost:3000/device-information***
-- Example payload
+- Example payload - For the ***data*** object inside payload, I did validate request following the example payload. But at this one I think it is just metadata, so I could just remove the validation and save everything it gives to database.
 ```
 {
     "deviceId": "ibm-00976C",
