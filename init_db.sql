@@ -1,0 +1,3 @@
+CREATE USER postgres WITH PASSWORD 'password';
+CREATE DATABASE nestjs;
+GRANT ALL PRIVILEGES ON DATABSE s3-inno-api-1 TO s3-inno-api-1;
