@@ -2,7 +2,7 @@
 - ***npm start*** to run server
 - API Documentation at ***http://localhost:3000/api/***
 - Available end point ***http://localhost:3000/device-information***
-Example payload
+- Example payload
 ```
 {
     "deviceId": "ibm-00976C",
