@@ -37,3 +37,21 @@ or
 "timestamp": 1629629040
 }
 ```
+************
+UPDATE:
+- Please kindly update ***.env*** file config or create a database following the config or kindly run these SQL command. I am so sorry that I did not aware of this. I actually tried to setup docker for this one but it does not work so I did not push docker setup to this repo.
+```
+CREATE USER postgres WITH PASSWORD 'password';
+
+CREATE DATABASE nestjs
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'en_US.utf8'
+    LC_CTYPE = 'en_US.utf8'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+
+GRANT ALL privileges on database nestjs TO postgres;
+
+```
